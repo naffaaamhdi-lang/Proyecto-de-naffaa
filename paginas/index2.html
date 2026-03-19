@@ -4,124 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <title>Planes y Tarifas</title>
-    <link rel="stylesheet" href="/estilos/estilo2.css">
+    <link rel="stylesheet" href="../estilos/estilo2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<body>
+
+<!-- HEADER -->
 <header class="header">
   <div class="logo">FITNESS<span>CLUB</span></div>
 
   <nav class="menu">
-    <a href="/index.html">Inicio</a>
+    <a href="../index.html">Inicio</a>
     <a href="index2.html">Sobre Nosotros</a>
     <a href="index3.html">Clases</a>
     <a href="#" class="btn-menu">Inscríbete</a>
   </nav>
 </header>
 
-<body>
+<!-- PLANES Y TARIFAS -->
+<section class="pricing">
+    <h1>Planes y Tarifas</h1>
 
-    <section class="pricing">
-        <h1>Planes y Tarifas</h1>
+    <div class="cards">
 
-        <div class="cards">
-            <div class="card">
-                <div class="card-header basic">Básico</div>
-                <div class="price">$29<span>/mes</span></div>
-                <ul>
-                    <li>Acceso al gimnasio</li>
-                    <li>Clases grupales</li>
-                </ul>
-                <button>Suscribirse</button>
-            </div>
-
-            <div class="card featured">
-                <div class="card-header standard">Estándar</div>
-                <div class="price">$49<span>/mes</span></div>
-                <ul>
-                    <li>Acceso total</li>
-                    <li>Clases ilimitadas</li>
-                    <li>Asesoría fitness</li>
-                </ul>
-                <button>Suscribirse</button>
-            </div>
-
-            <div class="card">
-                <div class="card-header premium">Premium</div>
-                <div class="price">$69<span>/mes</span></div>
-                <ul>
-                    <li>Todo incluido</li>
-                    <li>Entrenador personal</li>
-                    <li>Plan nutricional</li>
-                </ul>
-                <button>Suscribirse</button>
-            </div>
+        <div class="card">
+            <div class="card-header basic">Básico</div>
+            <div class="price">$29<span>/mes</span></div>
+            <ul>
+                <li>Acceso al gimnasio</li>
+                <li>Clases grupales</li>
+            </ul>
+            <button>Suscribirse</button>
         </div>
-    </section>
-    <section class="contacto">
 
-  <h2>Contacto</h2>
+        <div class="card featured">
+            <div class="card-header standard">Estándar</div>
+            <div class="price">$49<span>/mes</span></div>
+            <ul>
+                <li>Acceso total</li>
+                <li>Clases ilimitadas</li>
+                <li>Asesoría fitness</li>
+            </ul>
+            <button>Suscribirse</button>
+        </div>
 
-  <div class="contacto-contenido">
+        <div class="card">
+            <div class="card-header premium">Premium</div>
+            <div class="price">$69<span>/mes</span></div>
+            <ul>
+                <li>Todo incluido</li>
+                <li>Entrenador personal</li>
+                <li>Plan nutricional</li>
+            </ul>
+            <button>Suscribirse</button>
+        </div>
 
-    <form action="#" method="post">
-
-      <label for="nombre">Nombre</label>
-      <input type="text" id="nombre" name="nombre">
-
-      <label for="email">Correo</label>
-      <input type="email" id="email" name="email">
-
-      <label for="motivo">Motivo</label>
-      <select id="motivo" name="motivo">
-        <option value="info">Información</option>
-        <option value="soporte">Soporte</option>
-        <option value="otros">Otros</option>
-      </select>
-
-      <p>Forma de contacto</p>
-      <input type="radio" id="emailc" name="contacto" value="email">
-      <label for="emailc">Email</label>
-
-      <input type="radio" id="telefonoc" name="contacto" value="telefono">
-      <label for="telefonoc">Teléfono</label>
-
-      <p>
-        <input type="checkbox" id="acepto" name="acepto">
-        <label for="acepto">Acepto las condiciones</label>
-      </p>
-
-      <button type="submit">Enviar</button>
-
-    </form>
-
-
-  </div>
-
+    </div>
 </section>
 
-    <footer>
-        <div class="footer-content">
-            <div>
-                <h4>Contáctanos</h4>
-                <p>Dirección: Calle 123, Las palmas</p>
-                <p>Teléfono: +34 345 678 910</p>
-                <p>Email: info@fitnessclub.com</p>
-            </div>
+<!-- CONTACTO -->
+<section class="contacto">
 
-            <div class="social">
-                <img src="/imagenes/facebook.png" alt="Facebook">
-                <img src="/imagenes/gorjeo.png" alt="Instagram">
-                <img src="/imagenes/Youtube_logo.png" alt="YouTube">
-            </div>
+<h2>Contacto</h2>
 
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps?q=Las Palmas&output=embed" allowfullscreen loading="lazy">
-                </iframe>
-            </div>
-        </div>
-    </footer>
+<div class="contacto-contenido">
+
+<form action="#" method="post">
+
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" name="nombre">
+
+<label for="email">Correo</label>
+<input type="email" id="email" name="email">
+
+<label for="motivo">Motivo</label>
+<select id="motivo" name="motivo">
+<option value="info">Información</option>
+<option value="soporte">Soporte</option>
+<option value="otros">Otros</option>
+</select>
+
+<p>Forma de contacto</p>
+
+<input type="radio" id="emailc" name="contacto" value="email">
+<label for="emailc">Email</label>
+
+<input type="radio" id="telefonoc" name="contacto" value="telefono">
+<label for="telefonoc">Teléfono</label>
+
+<p>
+<input type="checkbox" id="acepto" name="acepto">
+<label for="acepto">Acepto las condiciones</label>
+</p>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-content">
+
+<div>
+<h4>Contáctanos</h4>
+<p>Dirección: Calle 123, Las palmas</p>
+<p>Teléfono: +34 345 678 910</p>
+<p>Email: info@fitnessclub.com</p>
+</div>
+
+<div class="social">
+<img src="../imagenes/facebook.png" alt="Facebook">
+<img src="../imagenes/gorjeo.png" alt="Instagram">
+<img src="../imagenes/Youtube_logo.png" alt="YouTube">
+</div>
+
+<div class="mapa">
+<iframe src="https://www.google.com/maps?q=Las Palmas&output=embed" allowfullscreen loading="lazy"></iframe>
+</div>
+
+</div>
+</footer>
 
 </body>
-
 </html>
