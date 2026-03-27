@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fitness Club</title>
   <link rel="stylesheet" href="estilo.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS de mi sitio" href="feed.xml">
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header class="header">
   <div class="logo">FITNESS<span>CLUB</span></div>
 
   <nav class="menu">
     <a href="index.html">Inicio</a>
-    <a href="/paginas/index2.html">Sobre Nosotros</a>
-    <a href="/paginas/index3.html">Clases</a>
+    <a href="paginas/index2.html">Sobre Nosotros</a>
+    <a href="paginas/index3.html">Clases</a>
     <a href="#" class="btn-menu">Inscríbete</a>
   </nav>
 </header>
@@ -23,10 +26,11 @@
 
   <!-- VIDEO DE FONDO -->
   <video autoplay muted loop playsinline class="video-bg">
-    <source src="/imagenes/YTDown.com_YouTube_Cinematic-Fitness-Video-Featuring-DVTrai_Media_UUwmlaDT-hM_001_1080p.mp4" type="video/mp4">
+    <source src="imagenes/YTDown.com_YouTube_Cinematic-Fitness-Video-Featuring-DVTrai_Media_UUwmlaDT-hM_001_1080p.mp4" type="video/mp4">
     Tu navegador no soporta videos HTML5.
   </video>
 
+  <!-- informacion -->
   <div class="hero-content">
     <h1>¡Comienza tu<br>mejor versión hoy!</h1>
     <p>Ponte en forma con nosotros</p>
@@ -34,21 +38,27 @@
   </div>
 
 </section>
- <footer>
-        <div class="footer-content">
-            <div>
-                <h4>Contáctanos</h4>
-                <p>Dirección: Calle 123, Las palmas</p>
-                <p>Teléfono: +34 345 678 910</p>
-                <p>Email: info@fitnessclub.com</p>
-            </div>
 
-            <div class="social">
-                <img src="/imagenes/facebook.png" alt="Facebook">
-                <img src="/imagenes/gorjeo.png" alt="Instagram">
-                <img src="/imagenes/Youtube_logo.png" alt="YouTube">
-            </div>
-        </div>
-    </footer>
+<!-- pie de la pagina -->
+<footer>
+  <div class="footer-content">
+    <div>
+      <h4>Contáctanos</h4>
+      <p>Dirección: Calle 123, Las palmas</p>
+      <p>Teléfono: +34 345 678 910</p>
+      <p>Email: info@fitnessclub.com</p>
+    </div>
+
+    <div class="social">
+      <img src="imagenes/facebook.png" alt="Facebook">
+      <img src="imagenes/gorjeo.png" alt="Instagram">
+      <img src="imagenes/Youtube_logo.png" alt="YouTube">
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
 </body>
 </html>

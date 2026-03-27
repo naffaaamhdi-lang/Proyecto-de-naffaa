@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Fitness Club</title>
+    <link>http://127.0.0.1:5500/Proyecto/index.html</link>
+    <description>Novedades sobre inscripción en Fitness Club</description>
+
+    <item>
+      <title>Abiertas las inscripciones en Fitness Club</title>
+      <description>Ya puedes inscribirte desde nuestra página principal y comenzar tu entrenamiento.</description>
+      <link>http://127.0.0.1:5500/Proyecto/index.html</link>
+      <enclosure url="http://127.0.0.1:5500/imagenes/facebook.png" type="image/png" length="10234" />
+    </item>
+
+    <item>
+      <title>Inscríbete y empieza tu cambio físico</title>
+      <description>Accede al botón "Inscríbete" en la página principal y empieza hoy mismo.</description>
+      <link>http://127.0.0.1:5500/Proyecto/index.html</link>
+      <enclosure url="http://127.0.0.1:5500/imagenes/Youtube_logo.png" type="image/png" length="20480" />
+    </item>
+
+  </channel>
+</rss>
